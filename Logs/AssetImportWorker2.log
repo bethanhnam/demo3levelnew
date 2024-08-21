@@ -1,0 +1,539 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32524 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\namBT\unity\Unity 2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/NamBtProjects/New folder
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53779
+Successfully changed project path to: E:/NamBtProjects/New folder
+E:/NamBtProjects/New folder
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [72088] Host "[IP] 192.168.1.238 [Port] 0 [Flags] 2 [Guid] 333349289 [EditorId] 333349289 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SI342G5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [72088] Host "[IP] 192.168.1.238 [Port] 0 [Flags] 2 [Guid] 333349289 [EditorId] 333349289 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SI342G5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 273.10 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path D:/namBT/unity/Unity 2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/NamBtProjects/New folder/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.9001
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'D:/namBT/unity/Unity 2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/namBT/unity/Unity 2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/namBT/unity/Unity 2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/namBT/unity/Unity 2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/namBT/unity/Unity 2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002633 seconds.
+- Loaded All Assemblies, in  0.222 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 172 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 636ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (92ms)
+		LoadAssemblies (67ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (259ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021BB608BDB0 doesn't match image E:\NamBtProjects\New folder\Assets\Firebase\Plugins\Firebase.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021BB61CF870 doesn't match image E:\NamBtProjects\New folder\Assets\Firebase\Plugins\Firebase.App.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021B8653EDD0 doesn't match image E:\NamBtProjects\New folder\Assets\Firebase\Plugins\Firebase.RemoteConfig.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021B85A3D2A0 doesn't match image E:\NamBtProjects\New folder\Assets\Firebase\Plugins\Firebase.TaskExtension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021BB65266D0 doesn't match image E:\NamBtProjects\New folder\Assets\Firebase\Plugins\Firebase.Crashlytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021BB660C170 doesn't match image E:\NamBtProjects\New folder\Assets\Firebase\Plugins\Firebase.Platform.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 14.97 ms, found 21 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.093 seconds
+Domain Reload Profiling: 1713ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (943ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 14.45 ms, found 21 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8037 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 354 unused Assets / (2.2 MB). Loaded Objects now: 8362.
+Memory consumption went from 385.8 MB to 383.7 MB.
+Total: 15.656400 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.206900 ms MarkObjects: 13.831000 ms  DeleteObjects: 1.286900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150080.528343 seconds.
+  path: Assets/oldResouces/mini/AlertScreen.png
+  artifactKey: Guid(5c9588220ef8c7849b745e54295a6735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/AlertScreen.png using Guid(5c9588220ef8c7849b745e54295a6735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daf88772c0671ab82f4f356c8b84273') in 0.065436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/oldResouces/mini/ddada_0014_Layer-3.png
+  artifactKey: Guid(0346e205dfc179249b30add5ef1f2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/ddada_0014_Layer-3.png using Guid(0346e205dfc179249b30add5ef1f2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97470f94572e34e17feba0a1a887fb67') in 0.016681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/oldResouces/mini/ddada_0008_Layer-10.png
+  artifactKey: Guid(4fdaab4ac24b87c40b18e52b12fb0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/ddada_0008_Layer-10.png using Guid(4fdaab4ac24b87c40b18e52b12fb0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9337b7aea3db8d85cf489a238faa495') in 0.017876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006009 seconds.
+  path: Assets/oldResouces/mini/ddada_0010_Untitled-2_0003_Layer-21.png
+  artifactKey: Guid(dda13dbf5b5c2504eaec5451c62d746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/ddada_0010_Untitled-2_0003_Layer-21.png using Guid(dda13dbf5b5c2504eaec5451c62d746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0e7895ab80665207509d47190aee6d') in 0.024744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/oldResouces/mini/ddada_0002_Rectangle-7.png
+  artifactKey: Guid(f2ba33ee0d8dbeb4cb6ca6ba91bff5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/ddada_0002_Rectangle-7.png using Guid(f2ba33ee0d8dbeb4cb6ca6ba91bff5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679af6530d6e45fd7f38a47ba34badae') in 0.026675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/oldResouces/mini/ddada_0009_snapedit_1721873637683.png
+  artifactKey: Guid(1c8967f67d13b164ca5c804b807362e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/ddada_0009_snapedit_1721873637683.png using Guid(1c8967f67d13b164ca5c804b807362e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24952dc972c38ad205ddc86e99fe724') in 0.023375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/oldResouces/mini/log.png
+  artifactKey: Guid(0c39c1b79cc91fa4f8e69e076139f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/log.png using Guid(0c39c1b79cc91fa4f8e69e076139f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e299a8a5ad18457596a549835e56e6') in 0.016760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/oldResouces/mini/ddada_0015_snapedit_1718074151698.png
+  artifactKey: Guid(33651d257bc9ee64b95f8b609a84f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/mini/ddada_0015_snapedit_1718074151698.png using Guid(33651d257bc9ee64b95f8b609a84f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b4565ff3cc594cbbe09baf5a97bacf') in 0.017493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 247.980866 seconds.
+  path: Assets/oldResouces/UI/0 font/Font Texture.texture2D
+  artifactKey: Guid(496070084680fa145ab0dc34a9e037bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Font Texture.texture2D using Guid(496070084680fa145ab0dc34a9e037bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8429ef465e9830b6b8389ef1e3ae97e9') in 0.014774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004812 seconds.
+  path: Assets/oldResouces/UI/0 font/Grota Sans Heavy SDF (White).asset
+  artifactKey: Guid(0203350b4f145c245866e4f501aa77e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Grota Sans Heavy SDF (White).asset using Guid(0203350b4f145c245866e4f501aa77e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1da2368d87c31def5e5df7e0e2df460') in 0.111068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves Italic SDF.asset
+  artifactKey: Guid(6ce611659848c5a4f884b06ce8725ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves Italic SDF.asset using Guid(6ce611659848c5a4f884b06ce8725ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a8936301e1c21dd017256700c3965') in 0.020671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves SDF - dark orange.asset
+  artifactKey: Guid(b884796468336f242bf86e93d8c04b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves SDF - dark orange.asset using Guid(b884796468336f242bf86e93d8c04b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17dca5fd35161509dcc75dcec520534') in 0.022748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( yellow).asset
+  artifactKey: Guid(23f9565b15f8db648803c9f4bb475663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( yellow).asset using Guid(23f9565b15f8db648803c9f4bb475663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb851421374cda3963f1646071618a5') in 0.020111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves SDF Material-black.mat
+  artifactKey: Guid(4cb1f1410e8842247be67049284eeccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves SDF Material-black.mat using Guid(4cb1f1410e8842247be67049284eeccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f57480fb196ed14c9e2935741ef635e') in 0.014351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/oldResouces/UI/0 font/HyperSuperRegular.ttf
+  artifactKey: Guid(14190b84c96f32c4daa4182fddd24500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/HyperSuperRegular.ttf using Guid(14190b84c96f32c4daa4182fddd24500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e634ce0a39b6c6c16c154f673bcba3') in 0.010331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves SDF 7.asset
+  artifactKey: Guid(79255053b5ec2114782a282dafd5d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves SDF 7.asset using Guid(79255053b5ec2114782a282dafd5d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc55fd121d84b0ec551d2ee83bb231f') in 0.022438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves SDF 1 -none.asset
+  artifactKey: Guid(c4c63ceb2aedfa743b2b68a1d456f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves SDF 1 -none.asset using Guid(c4c63ceb2aedfa743b2b68a1d456f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6477c7b2ed98852b23fe2cc8995296f7') in 0.021037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( yellow) 1.asset
+  artifactKey: Guid(20840c0b0c35f7b40a58950881e160ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( yellow) 1.asset using Guid(20840c0b0c35f7b40a58950881e160ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2481d9efb4ec26ff112f83f4ab3bf7d') in 0.022197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/oldResouces/UI/0 font/Grota Sans Heavy SDF 1(Green).asset
+  artifactKey: Guid(b3dc2460f8ef70a4faee872b6ad690ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Grota Sans Heavy SDF 1(Green).asset using Guid(b3dc2460f8ef70a4faee872b6ad690ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d506d91ada56de0d197c06c35296b1') in 0.020378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves SDF 3 - dark.asset
+  artifactKey: Guid(6d7f3c23404ce7b4e86ebe8ee4800b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves SDF 3 - dark.asset using Guid(6d7f3c23404ce7b4e86ebe8ee4800b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b938c140793603529b4ff27683f550') in 0.061668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( Blue) 1.asset
+  artifactKey: Guid(ff3746cb177f5024ba87898512ed7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( Blue) 1.asset using Guid(ff3746cb177f5024ba87898512ed7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae90fce6d70977bd513bdc45999a4dd3') in 0.017906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( orange).asset
+  artifactKey: Guid(345fa0761221aa5478640736fffaf881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( orange).asset using Guid(345fa0761221aa5478640736fffaf881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf7e3e9166a232c76aeb4e14de17eef') in 0.020675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( brown) 1.asset
+  artifactKey: Guid(3c6e1133d331e724885e2ec7f48454fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( brown) 1.asset using Guid(3c6e1133d331e724885e2ec7f48454fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6960560a06ee7f1238527e6ec28ba0b7') in 0.021099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/oldResouces/UI/0 font/PaytoneOne SDF.asset
+  artifactKey: Guid(2331beeec8e2bd04c9f41e5940009e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/PaytoneOne SDF.asset using Guid(2331beeec8e2bd04c9f41e5940009e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8998b29f0bb34f18d8fccb595868d7d') in 0.021111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( brown).asset
+  artifactKey: Guid(7ca554245c29963488d1f30ea964fd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( brown).asset using Guid(7ca554245c29963488d1f30ea964fd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3219f322403a4d8fcc158fbc075c2a7d') in 0.021798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( Purple).asset
+  artifactKey: Guid(6582364cf8e441042985c2ea71818720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/GROTASANSRD-HEAVYIT (2) SDF ( Purple).asset using Guid(6582364cf8e441042985c2ea71818720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943d0e8ac09d18ba1a131bcb47f2187b') in 0.019018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/oldResouces/UI/0 font/HyperSuperRegular SDF.asset
+  artifactKey: Guid(6aafad714c97c314f8d9d4f4cd517bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/HyperSuperRegular SDF.asset using Guid(6aafad714c97c314f8d9d4f4cd517bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84544baa4ffcd9edf76bcf8e3407c1df') in 0.020977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves SDF 9 - blue.asset
+  artifactKey: Guid(24769de55f612044691a0e42427dc06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves SDF 9 - blue.asset using Guid(24769de55f612044691a0e42427dc06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4462fac74e3881cf8130b9eed09b7a68') in 0.038932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/oldResouces/UI/0 font/HyperSuperRegular SDF 5 - lightGreen.asset
+  artifactKey: Guid(58413762c05ddd54fb381f78a28ca405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/HyperSuperRegular SDF 5 - lightGreen.asset using Guid(58413762c05ddd54fb381f78a28ca405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9467a37b756e89370ad0e29a3180bd') in 0.022810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.141378 seconds.
+  path: Assets/oldResouces/UI/0 font/Subtle Curves SDF Material-blue.mat
+  artifactKey: Guid(6c668988406c79644937cd0ff0118d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/0 font/Subtle Curves SDF Material-blue.mat using Guid(6c668988406c79644937cd0ff0118d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2015de0ec7b816fa01bbe0bfbf6732') in 0.008414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 81.708252 seconds.
+  path: Assets/oldResouces/Images/#1.png
+  artifactKey: Guid(8063c75fc8a84a02a8eee697c03929b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/Images/#1.png using Guid(8063c75fc8a84a02a8eee697c03929b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8add923d54514b0400e8c2e95e35d01f') in 0.066684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/oldResouces/Images/#4.png
+  artifactKey: Guid(21fdfe63d2b74f5d9ad5b4f8256fcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/Images/#4.png using Guid(21fdfe63d2b74f5d9ad5b4f8256fcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321053e71dac668d5841835b58f8e371') in 0.015475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.345636 seconds.
+  path: Assets/AllIn1SpriteShader/Textures/black.png
+  artifactKey: Guid(0b8da974a6429b8489e21c2a5d8dd509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1SpriteShader/Textures/black.png using Guid(0b8da974a6429b8489e21c2a5d8dd509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5d56c99334f54d378be34c0ad07b9f') in 0.015381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AllIn1SpriteShader/Textures/GradientTextures/palette-nintendo-gameboy-black-zero-1x.png
+  artifactKey: Guid(2a39734b8956da843adee1646c75554f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1SpriteShader/Textures/GradientTextures/palette-nintendo-gameboy-black-zero-1x.png using Guid(2a39734b8956da843adee1646c75554f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b427d0daa300856a81fcb1fb089d8c21') in 0.014864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 84.946608 seconds.
+  path: Assets/oldResouces/UI/1 Main menu/mini/Your reward.png
+  artifactKey: Guid(11544388b68c97f4d8a5e63e873afd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/1 Main menu/mini/Your reward.png using Guid(11544388b68c97f4d8a5e63e873afd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef5c9b5b0c11faf5e01000002cce1f7') in 0.015478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.570957 seconds.
+  path: Assets/oldResouces/UI/NewBooster,bubble Story/png-clipart-computer-icons-arrow-triangle-play-icon-rectangle-black-thumbnail.png
+  artifactKey: Guid(6205a1e7bb6cf0743ba726e846609f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/UI/NewBooster,bubble Story/png-clipart-computer-icons-arrow-triangle-play-icon-rectangle-black-thumbnail.png using Guid(6205a1e7bb6cf0743ba726e846609f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b39221f06e4993761828450e587378') in 0.018581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1377.655894 seconds.
+  path: Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset
+  artifactKey: Guid(84423f1de7fce2f4ba74f7348ac4999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset using Guid(84423f1de7fce2f4ba74f7348ac4999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543400210110f81cacf853b6e4a8fef1') in 0.002449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 116.013443 seconds.
+  path: Assets/oldResouces/publish/image_2024-08-01_10-09-09.png
+  artifactKey: Guid(b8161ecf0537e0d40af60c42b0fc4ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/oldResouces/publish/image_2024-08-01_10-09-09.png using Guid(b8161ecf0537e0d40af60c42b0fc4ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a695ddd757f936b6b211ff3c91d36a0b') in 0.028308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 167.329735 seconds.
+  path: Assets/GooglePlayPlugins/com.google.android.appbundle/Editor/Scripts/Internal/AndroidManifest
+  artifactKey: Guid(dac17760a2fd2434188c3671e822fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GooglePlayPlugins/com.google.android.appbundle/Editor/Scripts/Internal/AndroidManifest using Guid(dac17760a2fd2434188c3671e822fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87dddc5a9d06f34819517a4c317d191') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.585949 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(aa897828350c61242bfd676fd902b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(aa897828350c61242bfd676fd902b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80faf48cd855688c097b631f20734f40') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.127113 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml.DISABLED
+  artifactKey: Guid(8c7a63a6587c0cf44a4ce75d38139d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml.DISABLED using Guid(8c7a63a6587c0cf44a4ce75d38139d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610889ce05ff8efd0bad1cfae25b4a16') in 0.000680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 89.999863 seconds.
+  path: Assets/facebook.cs
+  artifactKey: Guid(a420d3ecf66e3bc4d982639c18ef5c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/facebook.cs using Guid(a420d3ecf66e3bc4d982639c18ef5c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8524cf565144a391ba0c77264b018526') in 0.000316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
